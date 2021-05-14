@@ -1,0 +1,38 @@
+﻿použitá písma:
+
+text: Merriweather
+hlavní nadpis: Raleway
+
+barvy:
+
+pozadi           #f5f5f5
+dekorace nadpisů #629edb
+
+3 verze layoutu, breakpointy odvoď podle citu:
+
+nejužší verze
+==============================
+- všechno je pod sebou v jedné úzké nudli
+- v menu jsou položky pod sebou, menu samotné je nad obsahem
+- v galerii jsou všechny obrázky pod sebou
+- popisky k obrázkům jsou vždy pod obrázkem (k těm v textu i k těm v galerii)
+
+
+střední šířka okna
+=======================================
+- skoro všechno je pod sebou
+- v menu jsou položky vedle sebe, menu samotné je nad obsahem
+- v galerii jsou vždy 2 obrázky vedle sebe (obrázků je 9, vhodně vyřeš zobrazení lichého na konci)
+- popisky k obrázkům v textu jsou uvnitř obrázku blízko k jeho pravému dolnímu rohu
+- popisky k obrázkům v galerii jsou skryté a vyjíždějí při najetí myši
+
+
+nejširší obrazovky
+=======================================
+- hlavička s obrázkem na pozadí je přes celou šířku stránky
+- maximální šířka stránky je 960 px
+- v menu jsou položky pod sebou, menu je omezené na úzký proužek a je vlevo od úvodního odstavce textu
+- jednotlivé "sekce" se střídají: jednou vpravo a pak zase vlevo, aby web vypadal vizuálně zajímavě
+- v galerii jsou vždy 3 obrázky vedle sebe
+- popisky k obrázkům v textu jsou stejné jako pro střední šířky (uvnitř obrázku)
+- popisky k obrázkům v galerii jsou stejné jako střední šířky (skryté + stejný efekt)
