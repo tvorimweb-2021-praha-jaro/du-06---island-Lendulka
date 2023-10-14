@@ -1,6 +1,13 @@
 /* nejsme vcerejsi, pouzivame moderni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: border-box; }
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
 
 /*
  BARVY
@@ -39,7 +46,7 @@ body {
 
 .header {
     background-color: var(--header-bgr-color);
-    background-image: 
+    background-image:
         linear-gradient(hsla(0 0% 0% / 0.2), hsla(0 0% 0% / 0.2)),
         url(../../images/island-hlavicka.jpg);
     background-position: center;
@@ -136,7 +143,7 @@ body {
     color: #629edb;
     display: block;
     position: absolute;
-    left: -1.4rem;
+    left: calc(1.4rem * (-1));
     top: 2.5rem;
 }
 
@@ -151,7 +158,7 @@ body {
 }
 
 .obal-obrazek img {
-	max-width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -222,7 +229,7 @@ body {
 
 /* TABLET - ŠÍŘKA 500px až 1000px */
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 500px) {
 
     .obal {
         padding-top: 1rem;
@@ -272,7 +279,7 @@ body {
         letter-spacing: 0.5px;
     }
 
-    .menu > li:last-child {
+    .menu>li:last-child {
         border-right: none;
     }
 
@@ -284,9 +291,9 @@ body {
     }
 
     .nadpis-2::after {
-        left: -1.6rem;
+        left: calc(1.6rem * (-1));
     }
-    
+
     .obal-obrazek {
         position: relative;
     }
@@ -330,7 +337,7 @@ body {
         transition: all 1s ease;
     }
 
-    .foto:hover > img {
+    .foto:hover img {
         transform: scale(1.3);
     }
 
@@ -346,22 +353,22 @@ body {
         transform: translate(0, 100%);
     }
 
-    .foto:hover > .popisek-galerie {
-        transform: translate(0, 0%); 
+    .foto:hover>.popisek-galerie {
+        transform: translate(0, 0%);
         transition: all 0.75s ease-in-out;
-    }   
+    }
 }
 
 
 /* POČÍTAČ - ŠÍŘKA nad 1000px */
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1000px) {
 
     .obal {
         width: 960px;
-        box-shadow: 
-            10px 10px 11px -1px rgba(235,226,226,1),
-            -10px 0 11px -1px rgba(235,226,226,1);
+        box-shadow:
+            10px 10px 11px -1px rgba(235, 226, 226, 1),
+            -10px 0 11px -1px rgba(235, 226, 226, 1);
         margin-top: -8rem;
         padding-top: 0;
     }
@@ -418,7 +425,7 @@ body {
     }
 
     .nadpis-2::after {
-        left: -1.8rem;
+        left: calc(1.8rem * (-1));
     }
 
     .popisek-obrazek {
@@ -445,10 +452,9 @@ body {
 }
 
 
-    @media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
 
-        .header {
-            padding: 2rem 13rem;
-        }
+    .header {
+        padding: 2rem 13rem;
+    }
 }
-
