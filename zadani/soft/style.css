@@ -48,7 +48,7 @@ body {
     background-color: var(--header-bgr-color);
     background-image:
         linear-gradient(hsla(0 0% 0% / 0.2), hsla(0 0% 0% / 0.2)),
-        url(../../images/island-hlavicka.jpg);
+        url(../img/island-hlavicka.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
